@@ -1,156 +1,22 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.bi {
+    padding: 5px;
 }
 
-h1 {
-    color: #ffffff;
-    font-size: 3rem;
-    opacity: 0.8;
+.peacock {
+    background-color: black;
+    color: white;
 }
 
-h2, p {
-    color: #ffffff;
-    opacity: 0.8;
+.now {
+    background-color: teal;
+    color: white;
 }
 
-h3 {
-    color: #ffffff;
-    opacity: 0.8;
+.skyx {
+    background-color: purple;
+    color: white;
 }
 
-a {
-    text-decoration: none;
-}
-
-main {
-    min-height: 100vh;
-    background: linear-gradient(
-        to right top,
-        #111111,
-        #444444
-        );
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Varela Round;
-}
-
-.glass {
-    background: white;
-    min-height: 80vh;
-    width: 60%;
-    background: linear-gradient(
-        to right bottom,
-        rgba(0, 0, 0, 0.7),
-        rgba(32, 31, 31, 0.3)
-        );
-    border-radius: 2rem;
-    z-index: 3;
-    backdrop-filter: blur(2rem);
-    display: flex;
-}
-
-.circle1,.circle2 {
-    background: white;
-    background: linear-gradient(
-        to right bottom,
-        rgba(0, 0, 0, 0.7),
-        rgba(32, 31, 31, 0.3)
-        );   
-    height: 20rem;
-    width: 20rem;
-    position: absolute;
-    border-radius: 50%;
-}
-
-.circle1 {
-    top: 5%;
-    right: 10%;
-    z-index: 2;
-}
-
-.circle2 {
-    bottom: 5%;
-    left: 10%;
-    z-index: 2;
-}
-
-.dashboard {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: left;
-    background: linear-gradient(
-        to right bottom,
-        rgba(0, 0, 0, 0.7),
-        rgba(70, 66, 66, 0.3)
-        );
-    border-radius: 2rem;
-}
-
-.dashboard .link:hover {
-    transform: scale(1.1);
-    transition: transform .5s ease;
-}
-
-.menu-image {
-    width: 50px;
-    height: 50px;
-    flex: 1;
-}
-
-.link {
-    display: flex;
-    margin: 0rem 0rem;
-    padding: 1rem 0rem;
-    align-items: center;
-    flex: 2;
-}
-
-.link h2 {
-    padding: 0rem 2rem;
-}
-
-.uptime {
-    flex: 2;
-}
-
-/* Uptime Section */
-.uptime {
-    margin: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.card {
-    display: flex;
-    flex-direction: row-reverse;
-    background: linear-gradient(
-        to left top,
-        rgba(255,255,255,0.8),
-        rgba(255,255,255,0.5)
-        );
-    border-radius: 1rem;
-    margin: 2rem 0rem;
-    padding: 2rem;
-    box-shadow: 6px 6px 20px rgba(122,122,122,0.2);
-}
-
-.card:hover {
-    transform: scale(1.1);
-    transition: transform .5s ease;
-}
-
-.card img {
-    padding-left: 1rem;
-    width: 150px;
-}
-
-.card-info {
-    flex: 1;
+.love {
+    color: red;
 }
