@@ -3,12 +3,12 @@
 }
 
 .peacock {
-    background-color: black;
+    background: linear-gradient(45deg, #000000 0%, #494B4E 100%)
     color: white;
 }
 
 .now {
-    background-color: teal;
+    background: linear-gradient(45deg, #001211 0%, #001211 50%, #012F2F 100%)
     color: white;
 }
 
@@ -18,8 +18,12 @@
 }
 
 .showmax {
-    background-color: red;
+    background: linear-gradient(181deg, #FF8242 0%, #FF424B 49.48%, #FF0055 100%)
     color: white;
+}
+
+.showtime {
+    background: linear-gradient(222deg, #6D5ff9 0%, #ff493B 100%)
 }
 
 .love {
